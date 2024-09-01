@@ -1,3 +1,4 @@
+#Import all Required Packages
 import cv2
 import time
 import mediapipe as mp
