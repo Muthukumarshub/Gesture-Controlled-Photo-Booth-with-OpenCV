@@ -46,7 +46,7 @@ def capture_image_when_two_fingers_detected():
                 # Draw landmarks
                 mp.solutions.drawing_utils.draw_landmarks(frame, hand_landmarks, mp_hands.HAND_CONNECTIONS)
                 
-                # Count fingers
+                # Count fingers...
                 finger_count = count_fingers(hand_landmarks)
                 if finger_count == 2:
                     print("Two fingers detected! Capturing image in 3 seconds...")
